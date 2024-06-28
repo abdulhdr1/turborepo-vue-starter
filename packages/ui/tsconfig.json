@@ -1,0 +1,10 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.web.json",
+	"compilerOptions": {
+		"module": "esnext",
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react"
+	},
+	"include": ["src"]
+}
